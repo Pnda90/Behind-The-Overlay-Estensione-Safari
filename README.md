@@ -23,14 +23,6 @@ Convertita dall'estensione originale per [Chrome](https://chrome.google.com/webs
 
 > ⚠️ Il flag "Consenti estensioni non firmate" si resetta ad ogni riavvio del Mac. Dovrai riabilitarlo ogni volta.
 
-## Compilare dal sorgente
-
-Richiede Xcode 12+ su macOS 11 Big Sur o versioni successive.
-
-1. Clona questa repo
-2. Apri `Behind The Overlay.xcodeproj` in Xcode
-3. Seleziona **My Mac** come destinazione
-4. Premi **Cmd + R** per compilare ed eseguire
 
 ## Autore
 
