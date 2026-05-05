@@ -15,7 +15,7 @@ Convertita dall'estensione originale per [Chrome](https://chrome.google.com/webs
 
 ## Installazione
 
-1. Scarica l'ultimo file `.app` dalla sezione [Releases](../../releases)
+1. 1. Scarica l'ultimo file `.zip` dalla sezione [Releases](https://github.com/Pnda90/Behind-The-Overlay-Estensione-Safari/releases/latest)
 2. Apri l'app — una finestra ti guiderà ad abilitare l'estensione
 3. Apri **Safari → Impostazioni → Avanzate** → abilita **"Mostra funzionalità per sviluppatori web"**
 4. Vai in **Safari → Impostazioni → Sviluppatore** → abilita **"Consenti estensioni non firmate"**
