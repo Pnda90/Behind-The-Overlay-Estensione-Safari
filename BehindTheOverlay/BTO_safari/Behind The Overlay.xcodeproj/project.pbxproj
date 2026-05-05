@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		485512DE2FAA336000E949C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485512DD2FAA336000E949C9 /* AppDelegate.swift */; };
+		485512E02FAA336000E949C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485512DF2FAA336000E949C9 /* SceneDelegate.swift */; };
+		485512E32FAA336000E949C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485512E12FAA336000E949C9 /* LaunchScreen.storyboard */; };
+		485512E62FAA336000E949C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485512E42FAA336000E949C9 /* Main.storyboard */; };
+		485512EF2FAA336000E949C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485512EE2FAA336000E949C9 /* AppDelegate.swift */; };
+		485512F22FAA336000E949C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485512F02FAA336000E949C9 /* Main.storyboard */; };
+		485512F92FAA336000E949C9 /* Behind The Overlay Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 485512F82FAA336000E949C9 /* Behind The Overlay Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		485513032FAA336000E949C9 /* Behind The Overlay Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 485513022FAA336000E949C9 /* Behind The Overlay Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		485513082FAA336000E949C9 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 485512CD2FAA335F00E949C9 /* Main.html */; };
+		485513092FAA336000E949C9 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 485512CD2FAA335F00E949C9 /* Main.html */; };
+		4855130A2FAA336000E949C9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 485512CF2FAA335F00E949C9 /* Icon.png */; };
+		4855130B2FAA336000E949C9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 485512CF2FAA335F00E949C9 /* Icon.png */; };
+		4855130C2FAA336000E949C9 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 485512D02FAA335F00E949C9 /* Style.css */; };
+		4855130D2FAA336000E949C9 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 485512D02FAA335F00E949C9 /* Style.css */; };
+		4855130E2FAA336000E949C9 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 485512D12FAA335F00E949C9 /* Script.js */; };
+		4855130F2FAA336000E949C9 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 485512D12FAA335F00E949C9 /* Script.js */; };
+		485513102FAA336000E949C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485512D22FAA335F00E949C9 /* ViewController.swift */; };
+		485513112FAA336000E949C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485512D22FAA335F00E949C9 /* ViewController.swift */; };
+		485513122FAA336000E949C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485512D32FAA336000E949C9 /* Assets.xcassets */; };
+		485513132FAA336000E949C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485512D32FAA336000E949C9 /* Assets.xcassets */; };
+		485513142FAA336000E949C9 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485512D52FAA336000E949C9 /* SafariWebExtensionHandler.swift */; };
+		485513152FAA336000E949C9 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485512D52FAA336000E949C9 /* SafariWebExtensionHandler.swift */; };
+		4855132A2FAA336000E949C9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 485513272FAA336000E949C9 /* images */; };
+		4855132B2FAA336000E949C9 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 485513282FAA336000E949C9 /* js */; };
+		4855132C2FAA336000E949C9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 485513292FAA336000E949C9 /* manifest.json */; };
+		4855132D2FAA336000E949C9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 485513272FAA336000E949C9 /* images */; };
+		4855132E2FAA336000E949C9 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 485513282FAA336000E949C9 /* js */; };
+		4855132F2FAA336000E949C9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 485513292FAA336000E949C9 /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		485512FA2FAA336000E949C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485512C72FAA335F00E949C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485512F72FAA336000E949C9;
+			remoteInfo = "Behind The Overlay Extension (iOS)";
+		};
+		485513042FAA336000E949C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485512C72FAA335F00E949C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485513012FAA336000E949C9;
+			remoteInfo = "Behind The Overlay Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4855131B2FAA336000E949C9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				485512F92FAA336000E949C9 /* Behind The Overlay Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485513222FAA336000E949C9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				485513032FAA336000E949C9 /* Behind The Overlay Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		485512CE2FAA335F00E949C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		485512CF2FAA335F00E949C9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		485512D02FAA335F00E949C9 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		485512D12FAA335F00E949C9 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		485512D22FAA335F00E949C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		485512D32FAA336000E949C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		485512D52FAA336000E949C9 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		485512DA2FAA336000E949C9 /* Behind The Overlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Behind The Overlay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485512DD2FAA336000E949C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		485512DF2FAA336000E949C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		485512E22FAA336000E949C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		485512E52FAA336000E949C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		485512E72FAA336000E949C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485512EC2FAA336000E949C9 /* Behind The Overlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Behind The Overlay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485512EE2FAA336000E949C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		485512F12FAA336000E949C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		485512F32FAA336000E949C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485512F82FAA336000E949C9 /* Behind The Overlay Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Behind The Overlay Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485512FD2FAA336000E949C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485513022FAA336000E949C9 /* Behind The Overlay Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Behind The Overlay Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485513072FAA336000E949C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485513272FAA336000E949C9 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../Downloads/BehindTheOverlay/chrome/images; sourceTree = "<group>"; };
+		485513282FAA336000E949C9 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = ../../Downloads/BehindTheOverlay/chrome/js; sourceTree = "<group>"; };
+		485513292FAA336000E949C9 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../Downloads/BehindTheOverlay/chrome/manifest.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		485512D72FAA336000E949C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485512E92FAA336000E949C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485512F52FAA336000E949C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485512FF2FAA336000E949C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		485512C62FAA335F00E949C9 = {
+			isa = PBXGroup;
+			children = (
+				485512CB2FAA335F00E949C9 /* Shared (App) */,
+				485512D42FAA336000E949C9 /* Shared (Extension) */,
+				485512DC2FAA336000E949C9 /* iOS (App) */,
+				485512ED2FAA336000E949C9 /* macOS (App) */,
+				485512FC2FAA336000E949C9 /* iOS (Extension) */,
+				485513062FAA336000E949C9 /* macOS (Extension) */,
+				485512DB2FAA336000E949C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		485512CB2FAA335F00E949C9 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				485512D22FAA335F00E949C9 /* ViewController.swift */,
+				485512D32FAA336000E949C9 /* Assets.xcassets */,
+				485512CC2FAA335F00E949C9 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		485512CC2FAA335F00E949C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				485512CD2FAA335F00E949C9 /* Main.html */,
+				485512CF2FAA335F00E949C9 /* Icon.png */,
+				485512D02FAA335F00E949C9 /* Style.css */,
+				485512D12FAA335F00E949C9 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		485512D42FAA336000E949C9 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				485513262FAA336000E949C9 /* Resources */,
+				485512D52FAA336000E949C9 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		485512DB2FAA336000E949C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				485512DA2FAA336000E949C9 /* Behind The Overlay.app */,
+				485512EC2FAA336000E949C9 /* Behind The Overlay.app */,
+				485512F82FAA336000E949C9 /* Behind The Overlay Extension.appex */,
+				485513022FAA336000E949C9 /* Behind The Overlay Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		485512DC2FAA336000E949C9 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				485512DD2FAA336000E949C9 /* AppDelegate.swift */,
+				485512DF2FAA336000E949C9 /* SceneDelegate.swift */,
+				485512E12FAA336000E949C9 /* LaunchScreen.storyboard */,
+				485512E42FAA336000E949C9 /* Main.storyboard */,
+				485512E72FAA336000E949C9 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		485512ED2FAA336000E949C9 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				485512EE2FAA336000E949C9 /* AppDelegate.swift */,
+				485512F02FAA336000E949C9 /* Main.storyboard */,
+				485512F32FAA336000E949C9 /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		485512FC2FAA336000E949C9 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				485512FD2FAA336000E949C9 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		485513062FAA336000E949C9 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				485513072FAA336000E949C9 /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		485513262FAA336000E949C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				485513272FAA336000E949C9 /* images */,
+				485513282FAA336000E949C9 /* js */,
+				485513292FAA336000E949C9 /* manifest.json */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		485512D92FAA336000E949C9 /* Behind The Overlay (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4855131C2FAA336000E949C9 /* Build configuration list for PBXNativeTarget "Behind The Overlay (iOS)" */;
+			buildPhases = (
+				485512D62FAA336000E949C9 /* Sources */,
+				485512D72FAA336000E949C9 /* Frameworks */,
+				485512D82FAA336000E949C9 /* Resources */,
+				4855131B2FAA336000E949C9 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485512FB2FAA336000E949C9 /* PBXTargetDependency */,
+			);
+			name = "Behind The Overlay (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Behind The Overlay (iOS)";
+			productReference = 485512DA2FAA336000E949C9 /* Behind The Overlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		485512EB2FAA336000E949C9 /* Behind The Overlay (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485513232FAA336000E949C9 /* Build configuration list for PBXNativeTarget "Behind The Overlay (macOS)" */;
+			buildPhases = (
+				485512E82FAA336000E949C9 /* Sources */,
+				485512E92FAA336000E949C9 /* Frameworks */,
+				485512EA2FAA336000E949C9 /* Resources */,
+				485513222FAA336000E949C9 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485513052FAA336000E949C9 /* PBXTargetDependency */,
+			);
+			name = "Behind The Overlay (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Behind The Overlay (macOS)";
+			productReference = 485512EC2FAA336000E949C9 /* Behind The Overlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		485512F72FAA336000E949C9 /* Behind The Overlay Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485513182FAA336000E949C9 /* Build configuration list for PBXNativeTarget "Behind The Overlay Extension (iOS)" */;
+			buildPhases = (
+				485512F42FAA336000E949C9 /* Sources */,
+				485512F52FAA336000E949C9 /* Frameworks */,
+				485512F62FAA336000E949C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Behind The Overlay Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Behind The Overlay Extension (iOS)";
+			productReference = 485512F82FAA336000E949C9 /* Behind The Overlay Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		485513012FAA336000E949C9 /* Behind The Overlay Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4855131F2FAA336000E949C9 /* Build configuration list for PBXNativeTarget "Behind The Overlay Extension (macOS)" */;
+			buildPhases = (
+				485512FE2FAA336000E949C9 /* Sources */,
+				485512FF2FAA336000E949C9 /* Frameworks */,
+				485513002FAA336000E949C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Behind The Overlay Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Behind The Overlay Extension (macOS)";
+			productReference = 485513022FAA336000E949C9 /* Behind The Overlay Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		485512C72FAA335F00E949C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					485512D92FAA336000E949C9 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					485512EB2FAA336000E949C9 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					485512F72FAA336000E949C9 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					485513012FAA336000E949C9 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 485512CA2FAA335F00E949C9 /* Build configuration list for PBXProject "Behind The Overlay" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 485512C62FAA335F00E949C9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 485512DB2FAA336000E949C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				485512D92FAA336000E949C9 /* Behind The Overlay (iOS) */,
+				485512EB2FAA336000E949C9 /* Behind The Overlay (macOS) */,
+				485512F72FAA336000E949C9 /* Behind The Overlay Extension (iOS) */,
+				485513012FAA336000E949C9 /* Behind The Overlay Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		485512D82FAA336000E949C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4855130A2FAA336000E949C9 /* Icon.png in Resources */,
+				485512E32FAA336000E949C9 /* LaunchScreen.storyboard in Resources */,
+				485513082FAA336000E949C9 /* Main.html in Resources */,
+				4855130E2FAA336000E949C9 /* Script.js in Resources */,
+				485513122FAA336000E949C9 /* Assets.xcassets in Resources */,
+				485512E62FAA336000E949C9 /* Main.storyboard in Resources */,
+				4855130C2FAA336000E949C9 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485512EA2FAA336000E949C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4855130B2FAA336000E949C9 /* Icon.png in Resources */,
+				4855130D2FAA336000E949C9 /* Style.css in Resources */,
+				485512F22FAA336000E949C9 /* Main.storyboard in Resources */,
+				4855130F2FAA336000E949C9 /* Script.js in Resources */,
+				485513132FAA336000E949C9 /* Assets.xcassets in Resources */,
+				485513092FAA336000E949C9 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485512F62FAA336000E949C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4855132D2FAA336000E949C9 /* images in Resources */,
+				4855132F2FAA336000E949C9 /* manifest.json in Resources */,
+				4855132E2FAA336000E949C9 /* js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485513002FAA336000E949C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4855132A2FAA336000E949C9 /* images in Resources */,
+				4855132C2FAA336000E949C9 /* manifest.json in Resources */,
+				4855132B2FAA336000E949C9 /* js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		485512D62FAA336000E949C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485513102FAA336000E949C9 /* ViewController.swift in Sources */,
+				485512DE2FAA336000E949C9 /* AppDelegate.swift in Sources */,
+				485512E02FAA336000E949C9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485512E82FAA336000E949C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485513112FAA336000E949C9 /* ViewController.swift in Sources */,
+				485512EF2FAA336000E949C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485512F42FAA336000E949C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485513142FAA336000E949C9 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485512FE2FAA336000E949C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485513152FAA336000E949C9 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		485512FB2FAA336000E949C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485512F72FAA336000E949C9 /* Behind The Overlay Extension (iOS) */;
+			targetProxy = 485512FA2FAA336000E949C9 /* PBXContainerItemProxy */;
+		};
+		485513052FAA336000E949C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485513012FAA336000E949C9 /* Behind The Overlay Extension (macOS) */;
+			targetProxy = 485513042FAA336000E949C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		485512CD2FAA335F00E949C9 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485512CE2FAA335F00E949C9 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		485512E12FAA336000E949C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485512E22FAA336000E949C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		485512E42FAA336000E949C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485512E52FAA336000E949C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		485512F02FAA336000E949C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485512F12FAA336000E949C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		485513162FAA336000E949C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		485513172FAA336000E949C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		485513192FAA336000E949C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Behind The Overlay Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Behind-The-Overlay.Extension";
+				PRODUCT_NAME = "Behind The Overlay Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4855131A2FAA336000E949C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Behind The Overlay Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Behind-The-Overlay.Extension";
+				PRODUCT_NAME = "Behind The Overlay Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4855131D2FAA336000E949C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Behind The Overlay";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Behind-The-Overlay";
+				PRODUCT_NAME = "Behind The Overlay";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4855131E2FAA336000E949C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Behind The Overlay";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Behind-The-Overlay";
+				PRODUCT_NAME = "Behind The Overlay";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485513202FAA336000E949C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Behind The Overlay Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Behind-The-Overlay.Extension";
+				PRODUCT_NAME = "Behind The Overlay Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		485513212FAA336000E949C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Behind The Overlay Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Behind-The-Overlay.Extension";
+				PRODUCT_NAME = "Behind The Overlay Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		485513242FAA336000E949C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Behind The Overlay";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Behind-The-Overlay";
+				PRODUCT_NAME = "Behind The Overlay";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		485513252FAA336000E949C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Behind The Overlay";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Behind-The-Overlay";
+				PRODUCT_NAME = "Behind The Overlay";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		485512CA2FAA335F00E949C9 /* Build configuration list for PBXProject "Behind The Overlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485513162FAA336000E949C9 /* Debug */,
+				485513172FAA336000E949C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485513182FAA336000E949C9 /* Build configuration list for PBXNativeTarget "Behind The Overlay Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485513192FAA336000E949C9 /* Debug */,
+				4855131A2FAA336000E949C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4855131C2FAA336000E949C9 /* Build configuration list for PBXNativeTarget "Behind The Overlay (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4855131D2FAA336000E949C9 /* Debug */,
+				4855131E2FAA336000E949C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4855131F2FAA336000E949C9 /* Build configuration list for PBXNativeTarget "Behind The Overlay Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485513202FAA336000E949C9 /* Debug */,
+				485513212FAA336000E949C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485513232FAA336000E949C9 /* Build configuration list for PBXNativeTarget "Behind The Overlay (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485513242FAA336000E949C9 /* Debug */,
+				485513252FAA336000E949C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 485512C72FAA335F00E949C9 /* Project object */;
+}
